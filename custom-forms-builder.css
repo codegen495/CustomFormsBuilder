@@ -1,0 +1,65 @@
+/* custom-forms-builder.css */
+
+/* Form container */
+.custom-form-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Form fields */
+.custom-form-container label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.custom-form-container input[type="text"],
+.custom-form-container input[type="email"],
+.custom-form-container textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.custom-form-container input[type="checkbox"],
+.custom-form-container input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Submit button */
+.custom-form-container input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.custom-form-container input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Success message */
+.custom-form-success {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #dff0d8;
+    border: 1px solid #d6e9c6;
+    border-radius: 5px;
+    color: #3c763d;
+}
+
+/* Error message */
+.custom-form-error {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f2dede;
+    border: 1px solid #ebccd1;
+    border-radius: 5px;
+    color: #a94442;
+}
